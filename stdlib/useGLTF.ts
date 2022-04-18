@@ -1,9 +1,9 @@
 // import { GLTFLoader, DRACOLoader, MeshoptDecoder } from "three-stdlib";
 // @ts-nocheck
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader";
-import { useLoader } from "@react-three/fiber";
-import { MeshoptDecoder } from "meshoptimizer";
+import {GLTFLoader} from "three/examples/jsm/loaders/GLTFLoader";
+import {DRACOLoader} from "three/examples/jsm/loaders/DRACOLoader";
+import {useLoader} from "@react-three/fiber";
+import {MeshoptDecoder} from "meshoptimizer";
 
 // @ts-ignore
 let dracoLoader = null;
@@ -36,12 +36,11 @@ function extensions(useDraco, useMeshopt, extendLoader) {
 }
 
 function useGLTF(path, useDraco = true, useMeshOpt = true, extendLoader) {
-  const gltf = useLoader(
-    GLTFLoader,
-    path,
-    extensions(useDraco, useMeshOpt, extendLoader)
+  return useLoader(
+      GLTFLoader,
+      path,
+      extensions(useDraco, useMeshOpt, extendLoader)
   );
-  return gltf;
 }
 
 useGLTF.preload = (path, useDraco = true, useMeshOpt = true, extendLoader) =>
