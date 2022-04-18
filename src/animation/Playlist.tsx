@@ -4,11 +4,9 @@ import {
   DoubleSide,
   MeshLambertMaterial,
   MeshLambertMaterialParameters,
-  NearestFilter,
-  RepeatWrapping,
-  TextureLoader,
 } from "three";
 import { AsepriteAtlas } from "../types/aseprite";
+import {loaderAtlasTexture} from "./animationHelper";
 
 const Playlist: React.FC<
   {
@@ -35,17 +33,8 @@ const Playlist: React.FC<
       atlas.meta.frameTags.find((tag) => tag.name === tags[state.tagIndex])!,
     [state.tagIndex]
   );
-
   const texture = useMemo(() => {
-    const loader = new TextureLoader();
-    const image = loader.load(atlas.meta.image);
-    image.magFilter = NearestFilter;
-    image.wrapS = RepeatWrapping;
-    image.wrapT = RepeatWrapping;
-
-    image.repeat.set(1 / tilesH, 1);
-
-    return image;
+    return loaderAtlasTexture(atlas.meta.image, tilesH)
   }, []);
 
   useEffect(() => {
