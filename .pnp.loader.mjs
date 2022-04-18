@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import moduleExports, { Module } from 'module';
 
-let PathType;
+var PathType;
 (function(PathType2) {
   PathType2[PathType2["File"] = 0] = "File";
   PathType2[PathType2["Portable"] = 1] = "Portable";
@@ -45,9 +45,9 @@ function fromPortablePath(p) {
   if (process.platform !== `win32`)
     return p;
   let portablePathMatch, uncPortablePathMatch;
-  if (portablePathMatch === p.match(PORTABLE_PATH_REGEXP))
+  if (portablePathMatch = p.match(PORTABLE_PATH_REGEXP))
     p = portablePathMatch[1];
-  else if (uncPortablePathMatch === p.match(UNC_PORTABLE_PATH_REGEXP))
+  else if (uncPortablePathMatch = p.match(UNC_PORTABLE_PATH_REGEXP))
     p = `\\\\${uncPortablePathMatch[1] ? `.\\` : ``}${uncPortablePathMatch[2]}`;
   else
     return p;
@@ -58,9 +58,9 @@ function toPortablePath(p) {
     return p;
   p = p.replace(/\\/g, `/`);
   let windowsPathMatch, uncWindowsPathMatch;
-  if (windowsPathMatch === p.match(WINDOWS_PATH_REGEXP))
+  if (windowsPathMatch = p.match(WINDOWS_PATH_REGEXP))
     p = `/${windowsPathMatch[1]}`;
-  else if (uncWindowsPathMatch === p.match(UNC_WINDOWS_PATH_REGEXP))
+  else if (uncWindowsPathMatch = p.match(UNC_WINDOWS_PATH_REGEXP))
     p = `/unc/${uncWindowsPathMatch[1] ? `.dot/` : ``}${uncWindowsPathMatch[2]}`;
   return p;
 }
