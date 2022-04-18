@@ -1,0 +1,336 @@
+{
+  "frames": {
+    "card #default.ase": {
+      "frame": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #unturn 0.ase": {
+      "frame": { "x": 18, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #unturn 1.ase": {
+      "frame": { "x": 36, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #unturn 2.ase": {
+      "frame": { "x": 54, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #unturn 3.ase": {
+      "frame": { "x": 72, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #unturn 4.ase": {
+      "frame": { "x": 90, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 0.ase": {
+      "frame": { "x": 108, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 1.ase": {
+      "frame": { "x": 126, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 2.ase": {
+      "frame": { "x": 144, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 3.ase": {
+      "frame": { "x": 162, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 4.ase": {
+      "frame": { "x": 180, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 5.ase": {
+      "frame": { "x": 198, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 6.ase": {
+      "frame": { "x": 216, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 50
+    },
+    "card #explosion 7.ase": {
+      "frame": { "x": 234, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 8.ase": {
+      "frame": { "x": 252, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 9.ase": {
+      "frame": { "x": 270, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 10.ase": {
+      "frame": { "x": 288, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 11.ase": {
+      "frame": { "x": 306, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 12.ase": {
+      "frame": { "x": 324, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 13.ase": {
+      "frame": { "x": 342, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 14.ase": {
+      "frame": { "x": 360, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 15.ase": {
+      "frame": { "x": 378, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 16.ase": {
+      "frame": { "x": 396, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 17.ase": {
+      "frame": { "x": 414, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #explosion 18.ase": {
+      "frame": { "x": 432, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #skip 0.ase": {
+      "frame": { "x": 450, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #skip 1.ase": {
+      "frame": { "x": 468, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #skip 2.ase": {
+      "frame": { "x": 486, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #skip 3.ase": {
+      "frame": { "x": 504, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 100
+    },
+    "card #future 0.ase": {
+      "frame": { "x": 522, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 50
+    },
+    "card #future 1.ase": {
+      "frame": { "x": 540, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 50
+    },
+    "card #future 2.ase": {
+      "frame": { "x": 558, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 50
+    },
+    "card #future 3.ase": {
+      "frame": { "x": 576, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 50
+    },
+    "card #future 4.ase": {
+      "frame": { "x": 594, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 50
+    },
+    "card #future 5.ase": {
+      "frame": { "x": 612, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 50
+    },
+    "card #future 6.ase": {
+      "frame": { "x": 630, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 50
+    },
+    "card #future 7.ase": {
+      "frame": { "x": 648, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 50
+    },
+    "card #future 8.ase": {
+      "frame": { "x": 666, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 50
+    },
+    "card #future 9.ase": {
+      "frame": { "x": 684, "y": 0, "w": 18, "h": 25 },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 18, "h": 25 },
+      "sourceSize": { "w": 18, "h": 25 },
+      "duration": 50
+    }
+  },
+  "meta": {
+    "app": "https://www.aseprite.org/",
+    "version": "1.2.34.1-x64",
+    "image": "card.png",
+    "format": "RGBA8888",
+    "size": { "w": 702, "h": 25 },
+    "scale": "1",
+    "frameTags": [
+      { "name": "default", "from": 0, "to": 0, "direction": "forward" },
+      { "name": "unturn", "from": 1, "to": 5, "direction": "forward" },
+      { "name": "explosion", "from": 6, "to": 24, "direction": "forward" },
+      { "name": "skip", "from": 25, "to": 28, "direction": "forward" },
+      { "name": "future", "from": 29, "to": 38, "direction": "forward" }
+    ],
+    "layers": [
+      { "name": "card", "opacity": 255, "blendMode": "normal" },
+      { "name": "effect", "opacity": 255, "blendMode": "normal" }
+    ],
+    "slices": []
+  }
+}
