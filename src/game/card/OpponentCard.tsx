@@ -22,7 +22,7 @@ const OpponentCard: React.FC<{
   return (
     <>
       <mesh ref={ref}>
-        <planeGeometry args={[18 / 2, 25 / 2]} />
+        <planeGeometry args={[18 / 2, 24 / 2]} />
 
         <Playlist
           // animations={[

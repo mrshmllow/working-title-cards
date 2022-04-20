@@ -86,7 +86,7 @@ const Card: React.FC<{
           castShadow={true}
           renderOrder={10}
         >
-          <planeGeometry args={[18 / 2, 25 / 2]} />
+          <planeGeometry args={[18 / 2, 24 / 2]} />
 
           <Playlist
             tags={["unturn", type.toString()]}

@@ -30,7 +30,7 @@ const Discard: React.FC<{}> = ({}) => {
     lastDiscarded && (
       <group ref={ref}>
         <mesh>
-          <planeGeometry args={[18 / 2, 25 / 2]} />
+          <planeGeometry args={[18 / 2, 24 / 2]} />
 
           <StaticFrame
             atlas={atlasJSON as unknown as AsepriteAtlas}

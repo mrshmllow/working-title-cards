@@ -60,7 +60,7 @@ const Deck: React.FC<{}> = () => {
           }
           // onPointerLeave={() => clearTooltip()}
         >
-          <planeGeometry args={[18 / 2, 25 / 2]} />
+          <planeGeometry args={[18 / 2, 24 / 2]} />
 
           <Animation
             loop={true}
